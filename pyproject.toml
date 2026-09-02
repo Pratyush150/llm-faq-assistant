@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "faqbot"
+version = "0.1.0"
+description = "Retrieval-grounded FAQ assistant with citations, refusal guardrails and an evaluation harness."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Pratyush Vatsa" }]
+keywords = ["rag", "retrieval", "faq", "chatbot", "bm25", "evaluation"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Topic :: Text Processing :: Indexing",
+]
+dependencies = []
+
+[project.optional-dependencies]
+npz = ["numpy>=1.21"]
+yaml = ["PyYAML>=6.0"]
+test = ["pytest>=7.0"]
+
+[project.scripts]
+faqbot = "faqbot.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+# ROS 2 Humble workstations ship launch_testing / launch_testing_ros pytest
+# plugins built against an older hook signature; they abort collection on
+# modern pytest. Disabling them by name is harmless where they are absent.
+addopts = "-p no:launch_testing -p no:launch_ros"

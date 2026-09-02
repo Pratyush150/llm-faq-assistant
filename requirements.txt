@@ -1,0 +1,15 @@
+# There are no hard runtime dependencies. The package, the CLI, the HTTP
+# server, the demo and the whole test suite run on the Python standard
+# library alone (3.9+), offline, with no API keys.
+#
+# Tests
+pytest>=7.0
+
+# Optional. Everything below is guarded at import time: if it is missing the
+# package still imports, the tests still pass and `tools/faqbot --demo` still
+# runs. Install only what you actually want to use.
+#
+#   numpy>=1.21                 # .npz index persistence (faster load on big corpora)
+#   PyYAML>=6.0                 # read goldsets written as YAML instead of JSON
+#   sentence-transformers>=2.2  # SentenceTransformerEmbedder (local neural embeddings)
+#   openai>=1.0                 # OpenAIEmbedder / OpenAI answer adapter

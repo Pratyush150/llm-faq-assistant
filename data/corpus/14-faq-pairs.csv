@@ -1,0 +1,9 @@
+question,answer,category
+Can I use the AR-1 on a rug with fringes?,"Not recommended. The fringe wraps around the side brush and triggers an E02 stall. Fold the fringe under the rug or set a no-go zone over it.",cleaning
+Does the AR-1 have a HEPA filter?,"The standard NW-FILT-02 is a washable pleated filter, not a sealed HEPA unit. Northwind Robotics does not sell a HEPA option for the AR-1.",consumables
+What happens if the AR-1 gets stuck under furniture?,"The robot reverses, tries three escape routes, then stops and reports it is stuck. It also drops a marker on the map at that spot so you can add a no-go zone there.",navigation
+Can two AR-1 robots share one dock?,"No. Each robot pairs with one dock, and two robots will fight over the same infrared beacon. Buy a second dock and separate them by at least three metres.",setup
+How do I reset the AR-1 to factory settings?,"Hold the button and the dock button together for fifteen seconds until the ring flashes red twice. This clears all maps, zones, schedules and the Wi-Fi configuration.",setup
+Is the AR-1 quiet enough to run at night?,"Eco mode measures 58 dB at one metre, which is around the level of a quiet conversation. Most owners schedule night runs in Eco.",cleaning
+Why does the robot drive over the same strip twice?,"Overlap between parallel rows is deliberate and is roughly one third of the brush width. It is how the AR-1 avoids leaving uncleaned stripes when the wheels slip.",navigation
+Can I name rooms on the map?,"Yes, in the app: open the map, tap a room, then Rename. Named rooms are what voice commands like clean the kitchen match against.",app

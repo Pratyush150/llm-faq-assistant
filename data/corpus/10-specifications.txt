@@ -1,0 +1,22 @@
+Northwind Robotics AR-1 — technical specifications
+
+Model                 AR-1 (base), AR-1 Pro (mopping variant)
+Height                96 mm
+Diameter              340 mm
+Weight                3.4 kg
+Dust bin              0.55 litres (AR-1), 0.45 litres (AR-1 Pro)
+Water tank            none (AR-1), 180 ml (AR-1 Pro)
+Battery               3200 mAh lithium-ion, part NW-BATT-32
+Runtime               up to 90 minutes in Eco mode, about 45 minutes in Turbo
+Charge time           about 240 minutes from empty
+Suction               2600 Pa maximum
+Noise                 58 dB Eco, 62 dB Standard, 68 dB Turbo at one metre
+Navigation            360 degree lidar, bumper, four cliff sensors
+Climb height          20 mm threshold
+Carpet                low pile up to 20 mm
+Wi-Fi                 2.4 GHz 802.11 b/g/n only, no 5 GHz
+Filter                NW-FILT-02 washable pleated
+Main roller           NW-ROLL-07
+Side brush            NW-BRUSH-11
+Auto-empty bag        NW-BAG-05, optional dock only
+Operating temperature 5 to 40 degrees celsius

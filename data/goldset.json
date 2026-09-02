@@ -1,0 +1,31 @@
+{
+  "name": "AR-1 support goldset",
+  "corpus": "corpus",
+  "questions": [
+    {"id": "q01", "question": "How long does the AR-1 battery last on one charge?", "answerable": true, "relevant_sources": ["02-battery-and-charging.md", "10-specifications.txt"], "expected_contains": ["90 minutes"]},
+    {"id": "q02", "question": "How long does it take to fully charge the AR-1 from empty?", "answerable": true, "relevant_sources": ["02-battery-and-charging.md", "10-specifications.txt", "01-quickstart.md"], "expected_contains": ["240 minutes"]},
+    {"id": "q03", "question": "Which filter part number does the AR-1 use?", "answerable": true, "relevant_sources": ["04-filters-and-consumables.md", "10-specifications.txt"], "expected_contains": ["NW-FILT-02"]},
+    {"id": "q04", "question": "How often should I replace the filter NW-FILT-02?", "answerable": true, "relevant_sources": ["04-filters-and-consumables.md"], "expected_contains": ["six months"]},
+    {"id": "q05", "question": "Does the AR-1 work on a 5 GHz Wi-Fi network?", "answerable": true, "relevant_sources": ["06-wifi-and-app.md", "10-specifications.txt"], "expected_contains": ["2.4"]},
+    {"id": "q06", "question": "What does error code E03 mean?", "answerable": true, "relevant_sources": ["07-error-codes.md"], "expected_contains": ["filter"]},
+    {"id": "q07", "question": "What does error code E05 mean and how do I fix it?", "answerable": true, "relevant_sources": ["07-error-codes.md"], "expected_contains": ["dock"]},
+    {"id": "q08", "question": "How loud is the AR-1 in Turbo mode?", "answerable": true, "relevant_sources": ["03-cleaning-modes.md", "10-specifications.txt"], "expected_contains": ["68"]},
+    {"id": "q09", "question": "What is the dust bin capacity of the AR-1?", "answerable": true, "relevant_sources": ["03-cleaning-modes.md", "10-specifications.txt", "04-filters-and-consumables.md"], "expected_contains": ["0.55"]},
+    {"id": "q10", "question": "Can the AR-1 mop the floor?", "answerable": true, "relevant_sources": ["03-cleaning-modes.md", "13-accessories.html", "15-troubleshooting.json"], "expected_contains": ["Pro"]},
+    {"id": "q11", "question": "How do I set a no-go zone?", "answerable": true, "relevant_sources": ["05-mapping-and-navigation.md", "15-troubleshooting.json"], "expected_contains": ["app"]},
+    {"id": "q12", "question": "How many maps can the AR-1 store?", "answerable": true, "relevant_sources": ["05-mapping-and-navigation.md"], "expected_contains": ["three"]},
+    {"id": "q13", "question": "What is the warranty period on the AR-1 robot and dock?", "answerable": true, "relevant_sources": ["09-warranty-and-returns.md", "12-support-page.html"], "expected_contains": ["24 months"]},
+    {"id": "q14", "question": "How long do I have to return an unused AR-1 for a refund?", "answerable": true, "relevant_sources": ["09-warranty-and-returns.md"], "expected_contains": ["30 days"]},
+    {"id": "q15", "question": "What is the part number for the side brush?", "answerable": true, "relevant_sources": ["04-filters-and-consumables.md", "10-specifications.txt", "13-accessories.html"], "expected_contains": ["NW-BRUSH-11"]},
+    {"id": "q16", "question": "Where do I find the serial number on the robot?", "answerable": true, "relevant_sources": ["12-support-page.html"], "expected_contains": ["bin"]},
+    {"id": "q17", "question": "Can two AR-1 robots share one charging dock?", "answerable": true, "relevant_sources": ["14-faq-pairs.csv"], "expected_contains": ["dock"]},
+    {"id": "q18", "question": "How do I reset the AR-1 to factory settings?", "answerable": true, "relevant_sources": ["14-faq-pairs.csv"], "expected_contains": ["fifteen seconds"]},
+    {"id": "q19", "question": "Why does the AR-1 keep returning to the dock in the middle of a clean?", "answerable": true, "relevant_sources": ["15-troubleshooting.json", "02-battery-and-charging.md"], "expected_contains": ["bin"]},
+    {"id": "q20", "question": "What is the maximum carpet pile height the AR-1 handles?", "answerable": true, "relevant_sources": ["03-cleaning-modes.md", "10-specifications.txt"], "expected_contains": ["20 mm"]},
+    {"id": "u01", "question": "How much does a return flight to Lisbon cost?", "answerable": false, "notes": "Completely outside the corpus domain."},
+    {"id": "u02", "question": "What is the best recipe for sourdough bread?", "answerable": false, "notes": "Completely outside the corpus domain."},
+    {"id": "u03", "question": "Does the AR-1 support Matter over Thread?", "answerable": false, "notes": "In-domain vocabulary, but the corpus never states this. Must refuse rather than guess from the Wi-Fi page."},
+    {"id": "u04", "question": "What is the trade-in value of my old AR-1?", "answerable": false, "notes": "Plausible support question the documentation does not answer."},
+    {"id": "u05", "question": "Which lawn mower does Northwind Robotics recommend?", "answerable": false, "notes": "Brand is in-corpus, product category is not."}
+  ]
+}

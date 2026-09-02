@@ -1,0 +1,29 @@
+Northwind Robotics AR-1 — safety notes
+
+Read before first use.
+
+The AR-1 is for indoor domestic use on dry floors only. It is not rated for
+outdoor use, wet rooms, workshops or construction dust.
+
+Do not run the AR-1 over liquid spills, pet mess, lit candles, fireplaces or
+loose cables. Liquid ingress is not covered by the warranty and a cable pulled
+into the roller can bring down whatever it was attached to.
+
+Do not use the AR-1 to pick up plaster dust, toner, ash or anything smouldering.
+Fine dust passes the filter and coats the fan bearing; embers are a fire risk.
+
+Keep fingers and hair away from the main roller when the bin cover is off. The
+roller can start if the button is pressed.
+
+Use only the supplied dock and adapter. A third-party adapter with the same
+plug can still deliver the wrong voltage and damage the charge circuit.
+
+Charge and store the AR-1 between 5 and 40 degrees celsius. The robot pauses
+charging outside that range and reports E08.
+
+If the battery pack swells, deforms, or smells, stop using the robot, do not
+charge it, and contact support for disposal instructions. Do not put a lithium
+pack in household waste.
+
+Children and pets should be supervised around a running robot. The AR-1 stops
+on contact but it does not identify what it has touched.

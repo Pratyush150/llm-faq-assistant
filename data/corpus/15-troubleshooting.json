@@ -1,0 +1,35 @@
+{
+  "product": "Northwind Robotics AR-1",
+  "faqs": [
+    {
+      "question": "The AR-1 will not turn on at all. What do I check?",
+      "answer": "Check the power switch under the dust bin first, then confirm the dock LED is lit and the robot's contacts are clean. A robot stored flat for months may need twenty minutes on the dock before the status ring shows anything at all.",
+      "category": "power"
+    },
+    {
+      "question": "The AR-1 keeps returning to the dock mid-clean. Why?",
+      "answer": "Either the battery is dropping below 15 percent, which triggers a recharge-and-resume, or the bin is full and the robot has paused. A pack that reaches 15 percent within twenty minutes of a full charge is worn and should be replaced with NW-BATT-32.",
+      "category": "battery"
+    },
+    {
+      "question": "The AR-1 leaves streaks when mopping.",
+      "answer": "Streaks come from a dry or dirty pad. Rinse the mop pad, refit it wet, and check the 180 ml water tank is seated. Mopping is an AR-1 Pro feature; the base AR-1 has no water tank.",
+      "category": "mopping"
+    },
+    {
+      "question": "The map disappeared after a firmware update.",
+      "answer": "Maps are stored on the robot and are kept across updates, but an interrupted update clears them. Run one full clean to rebuild the map, then re-add zones. Do not power-cycle the dock while the status ring is pulsing blue.",
+      "category": "app"
+    },
+    {
+      "question": "The AR-1 smells burnt.",
+      "answer": "Stop using it. A burnt smell usually means hair is wrapped tight on the roller axle and the motor is overheating, or a belt is slipping. Clear the roller and inspect it. If the smell persists or the battery pack is swollen, do not charge the robot and contact support.",
+      "category": "safety"
+    },
+    {
+      "question": "How do I stop the AR-1 from entering one room?",
+      "answer": "Add a no-go zone over the doorway in the app, or close the door. No-go zones are stored on the robot and are enforced even when the phone is off.",
+      "category": "app"
+    }
+  ]
+}
