@@ -9,6 +9,14 @@ know — and measures how often it is right.**
 ![Tests](https://img.shields.io/badge/tests-197%20passing-brightgreen)
 ![License](https://img.shields.io/badge/license-MIT-lightgrey)
 
+## Screenshots
+
+![faqbot chat UI answering two product questions with citations, and refusing a third as out of domain](docs/screenshots/chat-ui.png)
+The chat UI from `faqbot serve`, answering real questions against the bundled 27-document support corpus. Each answer carries numbered citations back to the source file, plus its confidence, groundedness and latency. The third question is outside the corpus, so the bot refuses instead of inventing an answer.
+
+![Terminal table comparing seven chunking and retrieval configurations on the 25-question goldset](docs/screenshots/eval-comparison.png)
+`faqbot eval --compare` on the 25-question goldset: recall@1/3/5, MRR, groundedness, citation precision, answer accuracy, correct refusals and false refusals for seven chunking and retrieval configurations. This is how chunking choices get made here instead of guessed.
+
 ---
 
 ## The problem
